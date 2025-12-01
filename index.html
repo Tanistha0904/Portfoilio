@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanistha Keshri | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#hero" class="logo">Tanistha Keshri</a>
+
+        <nav class="nav-menu" id="navMenu">
+            <a href="#about">About</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+            ☰
+        </button>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="hero" class="hero-section">
+            <div class="hero-text reveal">
+                <p class="hero-intro">Hello, I'm</p>
+                <h1>Tanistha Keshri</h1>
+                <h2 class="typed-wrapper">
+                    <span id="typed-text"></span><span class="cursor">|</span>
+                </h2>
+                <p class="hero-description">
+                    A passionate Computer Science student building scalable web platforms
+                    and integrating AI/ML models to solve real-world problems.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-button primary">View My Work</a>
+                    <a href="#contact" class="cta-button secondary">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-image reveal">
+                <div class="hero-image-circle">
+                    <img src="tanistha.png" alt="Tanistha Keshri Ghibli Portrait">
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section reveal">
+            <h2>About Me</h2>
+            <p>
+                I specialize in <strong>HTML, CSS, JavaScript, and AI/ML</strong>, focusing on clean,
+                maintainable, and user-friendly solutions. I enjoy learning new technologies and
+                turning complex problems into simple, elegant products.
+            </p>
+            <p>
+                Outside of coding, I enjoy <strong>painting</strong> and <strong>video editing</strong>.
+                I love mixing creativity with technology to build experiences that feel smooth,
+                modern, and a little bit magical.
+            </p>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section id="certifications" class="section reveal">
+            <h2>Certifications</h2>
+            <div class="certification-list">
+                <div class="cert-item">
+                    <h3>Databases and SQL for Data Science with Python</h3>
+                    <p>Issued by: IBM (via Coursera)</p>
+                    <a href="https://www.coursera.org/account/accomplishments/certificate/0RKW2P0WJJNU"
+                        target="_blank" rel="noopener noreferrer">View Certificate</a>
+                </div>
+
+                <div class="cert-item">
+                    <h3>Neural Networks and Deep Learning</h3>
+                    <p>Issued by: DeepLearning.AI</p>
+                    <a href="https://www.coursera.org/account/accomplishments/certificate/ZTVFKDW8RS4H"
+                        target="_blank" rel="noopener noreferrer">View Certificate</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section reveal">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+
+                <!-- Fashion Product Recommendation -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="download.png" alt="Fashion Recommendation Project Image">
+                    </div>
+                    <h3>Fashion Product Recommendation System</h3>
+                    <p>
+                        A machine learning based recommendation system that suggests fashion products
+                        based on user preferences and behavior. It uses data analysis and model-driven
+                        insights for personalized suggestions.
+                    </p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>ML</span>
+                        <span>Pandas</span>
+                    </div>
+                    <a href="https://github.com/Tanistha0904/FashionProductRecommendationSystem.git" target="_blank"
+                        rel="noopener noreferrer" class="project-link">View Code</a>
+                </div>
+
+                <!-- Share Warmth -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="donation.png" alt="Share Warmth Donation Platform">
+                    </div>
+                    <h3>Share Warmth</h3>
+                    <p>
+                        A responsive web platform to connect donors with people in need. Built with a modern
+                        full-stack setup to provide smooth user journeys and secure data handling.
+                    </p>
+                    <div class="tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                    <a href="https://github.com/Tanistha0904/share-warmth-now.git" target="_blank"
+                        rel="noopener noreferrer" class="project-link">View Code</a>
+                </div>
+
+                <!-- Electricity Billing System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="electricity (1).png" alt="Electricity Billing System">
+                    </div>
+                    <h3>Electricity Billing System</h3>
+                    <p>
+                        A backend-driven system to manage customer records, meter readings, and bills.
+                        Designed to automate billing workflows and keep data structured and consistent.
+                    </p>
+                    <div class="tags">
+                        <span>Java</span>
+                        <span>MySQL</span>
+                        <span>OOP</span>
+                    </div>
+                    <a href="https://github.com/Tanistha0904/Electricity-billing-System.git" target="_blank"
+                        rel="noopener noreferrer" class="project-link">View Code</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section reveal">
+            <h2>Get In Touch</h2>
+            <p>
+                I'm currently looking for new opportunities and internships in
+                <strong>Web Development</strong> and <strong>AI/ML</strong>.
+                Feel free to reach out for collaborations, projects, or just to say hi!
+            </p>
+
+            <div class="contact-buttons">
+                <a href="resume_final.pdf" target="_blank" class="cta-button primary">
+                    Download Resume (PDF)
+                </a>
+                <a href="mailto:tanisthakeshri@gmail.com" class="cta-button secondary">
+                    Email Me
+                </a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/tanistha-keshri/" target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+                <span>•</span>
+                <a href="https://github.com/Tanistha0904" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Thank you</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
